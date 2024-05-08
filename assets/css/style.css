@@ -1,0 +1,157 @@
+@font-face {
+    font-family: jakarta;
+    src: url(../fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: preahvihear;
+    src: url(../fonts/Preahvihear/Preahvihear-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #11071F;
+}
+nav {
+    height: 80px;
+    background-color: #190A2C;
+}
+ul {
+    margin-left: 40%;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-top: 28px;
+    margin-left: 10rem;
+    font-size: 1.1rem;
+}
+a{
+    font-family: jakarta;
+    color: #ffffff;
+    text-decoration: none;
+}
+header {
+    position: relative;
+}
+b {
+    color: #7127BA;
+}
+i {
+    color: #D93F41;
+}
+#bimoji {
+    margin: 5% 25%;
+}
+.présentation_intro {
+    margin-top: 5%;
+    position: relative;
+}
+.présentation_intro h2 {
+    position: absolute;
+    top: 18%;
+    left: 41%;
+    color: #ffffff;
+    font-family: preahvihear;
+}
+.présentation_intro h3 {
+    position: absolute;
+    top: 32%;
+    left: 42.5%;
+    color: #ffffff;
+    font-family: preahvihear;
+}
+.présentation_intro h1 {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family: preahvihear;
+}
+.présentation_intro h4 {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    color: #ffffff;
+    font-size: 2.3rem;
+    font-family: preahvihear;
+}
+.présentation_intro p {
+    position: absolute;
+    top: 62%;
+    left: 43.2%;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-family: preahvihear;
+}
+.présentation_description {
+    position: relative;
+    height: 400px;
+}
+.présentation_description h2 {
+    position: absolute;
+    top: 10%;
+    left: 31.5%;
+    color: #ffffff;
+    font-size: 2.3rem;
+    font-family: preahvihear;
+}
+.description_school {
+    position: absolute;
+    top: 25%;
+    left: 31.5%;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-family: preahvihear;
+}
+.about_me {
+    position: absolute;
+    top: 40%;
+    left: 30.8%;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-family: preahvihear; 
+}
+.nav_skills h2, .nav_projects h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: preahvihear;
+}
+#nav_row {
+    margin-top: 0.7%;
+    margin-left: 49%;
+    height: 50px;
+}
+.my_skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.my_skills h2 {
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+    font-family: preahvihear;
+}
+.my_skills h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: preahvihear;
+}
+#skills_shema {
+    margin-top: 100px;
+    margin-left: 16%;
+    height: 1000px;
+    width: 1300px;
+}
+#projects {
+    width: 1500px;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+.projects {
+    position: relative;
+}
