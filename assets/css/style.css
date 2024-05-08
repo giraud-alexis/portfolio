@@ -155,3 +155,21 @@ i {
 .projects {
     position: relative;
 }
+
+footer {
+    height: 300px;
+}
+footer h2 {
+    margin-top: 5%;
+    margin-left: 25%;
+    color: #ffffff;
+    font-family: preahvihear;
+}
+.linkedin, .github, .gmail {
+    margin-top: 1%;
+    margin-left: 25%;
+}
+footer a {
+    margin-left: 1%;
+    font-family: preahvihear; 
+}
