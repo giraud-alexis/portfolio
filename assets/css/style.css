@@ -427,87 +427,93 @@ footer a {
     }
     .nav_skills h2 {
         margin-top: 40px;
-        margin-left: 20%;
+        margin-left: 5%;
         font-size: 1rem;
     }
     .my_skills h2 {
         margin-top: 50%;
-        margin-left: 15%;
+        margin-left: 0;
         font-size: 0.6rem;
     }
     .my_skills h3 {
         margin-top: 20%;
-        margin-left: 15%;
+        margin-left: 0%;
         font-size: 0.6rem;
     }
     #skills_shema {
         
         margin-left: 0;
-        height: 300px;
-        width: 300px;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 28%;
     }
     .nav_projects h2 {
         margin-top: 40px;
-        margin-left: 20%;
+        margin-left: 5%;
         font-size: 1rem;
     }
     #nav_row {
-        margin-left: 55%;
+        margin-left: 45%;
         height: 40px;
     }
     #projects {
+        margin-top: 15%;
         margin-left: 0;
-        height: 200px;
+        height: 100%;
         width: 100%;
     }
     #project_1 {
-        top: 25%;
-        left: 28%;
+        top: 32%;
+        left: 23%;
+        font-size: 0.4rem;
     }
     .tittle_project_1 {
-        top: 26.8%;
-        left: 28%;
-        font-size: 2rem;
+        top: 35.8%;
+        left: 23.5%;
+        font-size: 0.5rem;
     }
     .des_project_1 {
-        top: 34.6%;
-        left: 28%;
-        font-size: 0.7rem;
+        top: 41.5%;
+        left: 25%;
+        font-size: 0.2rem;
     }
     #click_1 {
-        top: 46%;
-        left: 28%;
+        height: 10px;
+        top: 52%;
+        left: 23%;
     }
     .visite_1 {
-        top: 46%;
-        left: 30%;
-        font-size: 0.9rem;
+        top: 52%;
+        left: 27%;
+        font-size: 0.3rem;
     }
     #project_2 {
-        top: 65%;
+        top: 67%;
         left: 67%;
+        font-size: 0.4rem;
     }
     .tittle_project_2 {
-        top: 66.8%;
-        left: 56.5%;
-        font-size: 2rem;
+        top: 70%;
+        left: 62%;
+        font-size: 0.5rem;
     }
     .des_project_2 {
-        top: 74%;
-        left: 49.5%;
-        font-size: 0.7rem;
+        top: 76%;
+        left: 50%;
+        font-size: 0.2rem;
     }
     #click_2 {
+        height: 10px;
         top: 85.5%;
-        left: 75.5%;
+        left: 80%;
     }
     .visite_2 {
         top: 85.5%;
-        left: 62%;
-        font-size: 0.9rem;
+        left: 61%;
+        font-size: 0.3rem;
     }
     footer {
-        height: 300px;
+        height: 150px;
     }
     footer h2 {
         margin-top: 5%;
@@ -522,7 +528,15 @@ footer a {
     }
     footer a {
         margin-left: 1%;
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         font-family: preahvihear; 
+    }
+    /* .linkedin, .github, .gmail {
+        height: 10px;
+        margin-top: 10%;
+        margin-left: 25%;
+    } */
+    #linkedin, #github, #gmail {
+        height: 15px;
     }
 }
