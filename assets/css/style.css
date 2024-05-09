@@ -6,6 +6,9 @@
     font-family: preahvihear;
     src: url(../fonts/Preahvihear/Preahvihear-Regular.ttf);
 }
+html {
+    scroll-behavior: smooth;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +36,7 @@ a{
     color: #ffffff;
     text-decoration: none;
 }
+
 header {
     position: relative;
 }
@@ -117,11 +121,14 @@ i {
 }
 .about_me {
     position: absolute;
-    top: 40%;
+    top: 51%;
     left: 30.8%;
     color: #ffffff;
     font-size: 0.9rem;
     font-family: preahvihear; 
+}
+.nav_skills, .nav_projects {
+    position: relative;
 }
 .nav_skills h2, .nav_projects h2 {
     text-align: center;
@@ -129,9 +136,22 @@ i {
     font-family: preahvihear;
 }
 #nav_row {
+    position: absolute;
+    z-index: 2;
     margin-top: 0.7%;
-    margin-left: 49%;
+    margin-left: 48.5%;
     height: 50px;
+}
+#nav_row:hover {
+    animation: button 0.5s infinite;
+}
+@keyframes button {
+    50% {
+        margin-top: 1.5%;
+    }
+    100% {
+        margin-top: 0.7%;
+    }
 }
 .my_skills {
     display: flex;
