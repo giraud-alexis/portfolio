@@ -365,7 +365,7 @@ footer a {
         font-size: 0.9rem;
     }
 }
-@media (max-width:600px) {
+@media (max-width:380px) {
     body {
         width: 100%;
     }
@@ -442,9 +442,19 @@ footer a {
         height: 300px;
         width: 300px;
     }
+    .nav_projects h2 {
+        margin-top: 40px;
+        margin-left: 20%;
+        font-size: 1rem;
+    }
     #nav_row {
         margin-left: 55%;
         height: 40px;
+    }
+    #projects {
+        margin-left: 0;
+        height: 200px;
+        width: 400px;
     }
     #project_1 {
         top: 25%;
