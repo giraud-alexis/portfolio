@@ -365,7 +365,7 @@ footer a {
         font-size: 0.9rem;
     }
 }
-@media (max-width:330px) {
+@media (max-width:450px) {
     body {
         width: 100%;
     }
