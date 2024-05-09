@@ -39,6 +39,14 @@ header {
 b {
     color: #7127BA;
 }
+ .présentation_intro h1 b, .présentation_intro h4 b {
+    background-color: #11071f00;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    /* clip-path: ellipse(34% 39% at 50% 50%); */
+}
 i {
     color: #D93F41;
 }
