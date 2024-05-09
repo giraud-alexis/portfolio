@@ -365,3 +365,131 @@ footer a {
         font-size: 0.9rem;
     }
 }
+@media (max-width:600px) {
+    body {
+        width: 100%;
+    }
+    nav {
+        height: 50px;
+        width: 600px;
+    }
+    li {
+        margin-left: 25px;
+        font-size: 0.5rem;
+    }
+    #bimoji {
+        height: 150px;
+        margin-left: 8%;
+    }
+    .présentation_intro h1 {
+        top: 40%;
+        left: 44%;
+        font-size: 0.8rem;
+
+    }
+    .présentation_intro h2 {
+        top: 10%;
+        left: 41%;
+        font-size: 0.5rem;
+    }
+    .présentation_intro h3 {
+        top: 20%;
+        font-size: 0.5rem;
+    }
+    .présentation_intro h4 {
+        top: 52%;
+        left: 54%;
+        font-size: 0.8rem;
+    }
+    .présentation_intro p {
+        top: 72%;
+        left: 43.2%;
+        font-size: 0.4rem;
+    }
+    .présentation_description {
+        margin-top: 2%;
+    }
+    .présentation_description h2 {
+        font-size: 1.4rem;
+    }
+    .description_school {
+        top: 18%;
+        font-size: 0.5rem;
+    }
+    .about_me {
+        top: 30%;
+        left: 20%;
+        font-size: 0.8rem;
+    }
+    .nav_skills h2 {
+        margin-top: 40px;
+        margin-left: 20%;
+        font-size: 1rem;
+    }
+    .my_skills h2 {
+        margin-top: 50%;
+        margin-left: 15%;
+        font-size: 0.6rem;
+    }
+    .my_skills h3 {
+        margin-top: 20%;
+        margin-left: 15%;
+        font-size: 0.6rem;
+    }
+    #skills_shema {
+        
+        margin-left: 20%;
+        height: 300px;
+        width: 300px;
+    }
+    #nav_row {
+        margin-left: 55%;
+        height: 40px;
+    }
+    #project_1 {
+        top: 25%;
+        left: 28%;
+    }
+    .tittle_project_1 {
+        top: 26.8%;
+        left: 28%;
+        font-size: 2rem;
+    }
+    .des_project_1 {
+        top: 34.6%;
+        left: 28%;
+        font-size: 0.7rem;
+    }
+    #click_1 {
+        top: 46%;
+        left: 28%;
+    }
+    .visite_1 {
+        top: 46%;
+        left: 30%;
+        font-size: 0.9rem;
+    }
+    #project_2 {
+        top: 65%;
+        left: 67%;
+    }
+    .tittle_project_2 {
+        top: 66.8%;
+        left: 56.5%;
+        font-size: 2rem;
+    }
+    .des_project_2 {
+        top: 74%;
+        left: 49.5%;
+        font-size: 0.7rem;
+    }
+    #click_2 {
+        top: 85.5%;
+        left: 75.5%;
+    }
+    .visite_2 {
+        top: 85.5%;
+        left: 62%;
+        font-size: 0.9rem;
+    }
+}
