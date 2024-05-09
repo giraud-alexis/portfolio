@@ -379,46 +379,50 @@ footer a {
     }
     #bimoji {
         height: 150px;
-        margin-left: 0;
+        margin-left: -2%;
     }
     .présentation_intro h1 {
         top: 40%;
         left: 42%;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
 
     }
     .présentation_intro h2 {
         top: 10%;
-        left: 32%;
+        left: 34%;
         font-size: 0.5rem;
     }
     .présentation_intro h3 {
         top: 20%;
+        left: 40%;
         font-size: 0.5rem;
     }
     .présentation_intro h4 {
-        top: 52%;
-        left: 52%;
-        font-size: 0.8rem;
+        top: 50%;
+        left: 50%;
+        font-size: 0.7rem;
     }
     .présentation_intro p {
         top: 72%;
-        left: 43.2%;
+        left: 40%;
         font-size: 0.4rem;
     }
     .présentation_description {
         margin-top: 2%;
     }
     .présentation_description h2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        left: 20%;
     }
     .description_school {
         top: 18%;
+        left: 20%;
         font-size: 0.5rem;
     }
     .about_me {
+        width: 80%;
         top: 30%;
-        left: 20%;
+        left: 10%;
         font-size: 0.8rem;
     }
     .nav_skills h2 {
@@ -438,7 +442,7 @@ footer a {
     }
     #skills_shema {
         
-        margin-left: 20%;
+        margin-left: 0;
         height: 300px;
         width: 300px;
     }
@@ -501,5 +505,24 @@ footer a {
         top: 85.5%;
         left: 62%;
         font-size: 0.9rem;
+    }
+    footer {
+        height: 300px;
+    }
+    footer h2 {
+        margin-top: 5%;
+        margin-left: 25%;
+        font-size: 1rem;
+        color: #ffffff;
+        font-family: preahvihear;
+    }
+    .linkedin, .github, .gmail {
+        margin-top: 1%;
+        margin-left: 25%;
+    }
+    footer a {
+        margin-left: 1%;
+        font-size: 0.5rem;
+        font-family: preahvihear; 
     }
 }
