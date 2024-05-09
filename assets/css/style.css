@@ -365,7 +365,7 @@ footer a {
         font-size: 0.9rem;
     }
 }
-@media (max-width:380px) {
+@media (max-width:450px) {
     body {
         width: 100%;
     }
@@ -379,11 +379,11 @@ footer a {
     }
     #bimoji {
         height: 150px;
-        margin-left: 8%;
+        margin-left: 2%;
     }
     .présentation_intro h1 {
         top: 40%;
-        left: 44%;
+        left: 42%;
         font-size: 0.8rem;
 
     }
@@ -398,7 +398,7 @@ footer a {
     }
     .présentation_intro h4 {
         top: 52%;
-        left: 54%;
+        left: 52%;
         font-size: 0.8rem;
     }
     .présentation_intro p {
