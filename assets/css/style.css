@@ -371,7 +371,7 @@ footer a {
     }
     nav {
         height: 50px;
-        width: 600px;
+        width: 100%;
     }
     li {
         margin-left: 25px;
@@ -454,7 +454,7 @@ footer a {
     #projects {
         margin-left: 0;
         height: 200px;
-        width: 400px;
+        width: 100%;
     }
     #project_1 {
         top: 25%;
