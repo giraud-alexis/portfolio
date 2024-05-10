@@ -253,26 +253,33 @@ footer a {
         width: 100%;
     }
     nav {
-        height: 50px;
+        height: 40px;
         width: 100%;
     }
     li {
-        margin-left: 25px;
+        margin-left: 15px;
         font-size: 0.5rem;
+    }
+    nav img {
+        height: 15px;
+        cursor: pointer;
+        position: absolute;
+        top: 60%;
+        left: 94%;
     }
     #bimoji {
         height: 150px;
         margin-left: -2%;
     }
     .présentation_intro h1 {
-        top: 40%;
-        left: 42%;
+        top: 23%;
+        left: 37%;
         font-size: 0.7rem;
 
     }
     .présentation_intro h2 {
-        top: 10%;
-        left: 34%;
+        top: -30%;
+        left: 35%;
         font-size: 0.5rem;
     }
     .présentation_intro h3 {
@@ -281,37 +288,42 @@ footer a {
         font-size: 0.5rem;
     }
     .présentation_intro h4 {
-        top: 50%;
-        left: 50%;
+        top: 42%;
+        left: 43%;
         font-size: 0.7rem;
     }
     .présentation_intro p {
-        top: 72%;
+        top: 60%;
         left: 40%;
         font-size: 0.4rem;
     }
     .présentation_description {
         margin-top: 2%;
+        height: 200px;
     }
     .présentation_description h2 {
         font-size: 1.2rem;
+        top: -30%;
         left: 20%;
     }
     .description_school {
-        top: 18%;
-        left: 20%;
+        top: 16%;
+        left: 18%;
         font-size: 0.5rem;
     }
     .about_me {
         width: 80%;
-        top: 30%;
+        top: 50%;
         left: 10%;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .nav_skills h2 {
-        margin-top: 40px;
+        margin-top: 80px;
         margin-left: 5%;
         font-size: 1rem;
+    }
+    .my_skills {
+        height: 500px;
     }
     .my_skills h2 {
         margin-top: 50%;
@@ -324,7 +336,7 @@ footer a {
         font-size: 0.6rem;
     }
     #skills_shema {
-        
+        margin-top: 25px;
         margin-left: 0;
         height: 100%;
         width: 100%;
@@ -337,7 +349,7 @@ footer a {
     }
     #nav_row {
         margin-left: 45%;
-        height: 40px;
+        height: 50px;
     }
     footer {
         height: 150px;
