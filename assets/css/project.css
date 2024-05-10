@@ -126,4 +126,132 @@ p {
 
 /* ------------------------------------------------------ */
 
-
+@media (max-width:450px) {
+    h1, h2, h3, h4, p {
+        color: white;
+    }
+    h1 {
+        margin-top: 5%;
+        margin-left: 5%;
+        font-family: jakarta;
+        font-size: 1rem;
+    }
+    h2 {
+        margin-top: 80px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: preahvihear;
+        font-size: 0.8rem;
+    }
+    h3 {
+        font-size: 0.6rem;
+        font-family: jakarta;
+        margin-bottom: 2%;
+    }
+    p {
+        font-size: 0.5rem;
+        padding: 4% 5%;
+    }
+    #click {
+        height: 10px;
+        width: 10px;
+    }
+    #pjt {
+        border-radius: 5px;
+        height: 70px;
+        width: 140px;
+        rotate: 0deg;
+    }
+    /* -------------------------------------------------- */
+    
+    .project_right img {
+        rotate: 180deg;
+        height: 250px;
+        width: 300px;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .project_right {
+        position: relative;
+    }
+    .pjt_right{
+        position: absolute;
+        top: 35%;
+        left: 25%;
+    }
+    .des_project_right {
+        top: 65%;
+        left: 15%;
+        height: 100px;
+        width: 250px;
+        position: absolute;
+    }
+    .des_project_right h3 {
+        position: absolute;
+        top: -100%;
+    }
+    .des_project_right p {
+        height: 70px;
+        
+        border-radius: 20px;
+        background-color: #ffffff0e;
+        backdrop-filter: blur(15px);
+    }
+    .click_1 {
+        display: flex;
+    }
+    .des_project_right img {
+        margin-left: 2%;
+    }
+    .des_project_right h4 {
+        margin-top: 5%;
+        margin-left: 3%;
+        font-size: 0.5rem;
+    }
+    
+    /* ------------------------------------------------------ */
+    
+    .project_left img {
+        height: 250px;
+        width: 300px;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .project_left {
+        position: relative;
+    }
+    .pjt_left{
+        position: absolute;
+        top: 30%;
+        left: 23.2%;
+    }
+    .des_project_left {
+        top: 60%;
+        left: 2%;
+        height: 100px;
+        width: 250px;
+        position: absolute;
+    }
+    .des_project_left h3 {
+        position: absolute;
+        top: -100px;
+        
+    }
+    .des_project_left p {
+        height: 70px;
+        border-radius: 20px;
+        background-color: #ffffff0e;
+        backdrop-filter: blur(15px);
+    }
+    .click_2 {
+        display: flex;
+    }
+    .des_project_left img {
+        margin-left: 90%;
+    }
+    .des_project_left h4 {
+        margin-top: 5%;
+        margin-left: -43%;
+        font-size: 0.5rem;
+    }
+}
