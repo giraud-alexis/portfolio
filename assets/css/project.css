@@ -28,6 +28,10 @@ p {
     font-size: 1.3rem;
     padding: 4% 5%;
 }
+.description_school img {
+    height: 15px;
+    width: 15px;
+}
 #click {
     height: 25px;
 }
