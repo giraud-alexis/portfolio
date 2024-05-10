@@ -1,0 +1,40 @@
+@font-face {
+    font-family: jakarta;
+    src: url(../fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: preahvihear;
+    src: url(../fonts/Preahvihear/Preahvihear-Regular.ttf);
+}
+h1, h2, h3, h4, p {
+    color: white;
+    font-family: preahvihear;
+}
+.contact a {
+    color: rgba(247, 225, 177, 0.884);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkedin {
+    margin-left: 0%;
+}
+.github {
+    margin-left: 0%;
+}
+.gmail {
+    margin-left: 0%;
+}
+.cv {
+    margin-top: 4%;
+}
+.thanks {
+    margin-top: 2%;
+}
