@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/project.css">
 </head>
 <body>
+    <audio id="audio-music">
+        <source src="./assets/music/Emmetelle-Awake.mp3" type="audio/mpeg">
+      </audio>
     <nav>
         <ul>
             <li><a href="/index.html">Home</a></li>
             <li><a href="./assets/pages/projects.html">Projects</a></li>
             <li><a href="./assets/pages/aboutme.html">About me</a></li>
         </ul>
+        <img id="music-btn" src="./assets/img/notes-de-musique.png" alt="music">
     </nav>
     <header>
         <div class="présentation_intro">
@@ -31,6 +36,7 @@
                 between user needs and business goals.</p>
         </div>
     </header>
+
     <div class="nav_skills">
         <h2>My skills</h2>
         <a href="#skills_shema">
@@ -48,28 +54,33 @@
             <img id="nav_row" src="./assets/img/fleches (1).png" alt="navigation">
         </a>
     </div>
-    <div class="projects">
-        <img id="projects" src="./assets/img/projet.png" alt="projets">
-        <p id="project_1"><b>Featured Project</b></p>
-        <p id="project_2"><b>Featured Project</b></p>
-        <h2 class="tittle_project_1">L'art Esthetique</h2>
-        <h2 class="tittle_project_2">Sandrine Coiffure</h2>
-        <p class="des_project_1">Site vitrine à la demande de l’entreprise L’art Esthétique afin <br> d’augmenter sa visibilité. Le projet a été designer, maquetté et codé <br> pour être mis en ligne par moi-même, en prenant en compte les <br> besoins du client. <br>
-            Ce site affiche un score Lighthouse de 91,75/100.</p>
-        <p class="des_project_2">Site vitrine avec carte blanche du client sur le web design oû j’ai<br>intégré au clic du menu des effets de perspective 3d sur la fenêtre<br>pour rendre le menu accessible  sur la partie droite de l’écran. Un<br>effet d’animation a également été ajouté pour rendre animée cette<br>perspective 3d au survol de la souris. Sobre et efficace.</p>
-        <a href="https://art-esthetique.web.app/">
-            <img id="click_1" src="./assets/img/click.png" alt="l'art Esthetique">
-        </a>
-        <a href="https://art-esthetique.web.app/">
-            <p class="visite_1">Click here to visit website</p>
-        </a>
-        <a href="https://sandrine-coiffure-domici-606ef.web.app/">
-            <img id="click_2" src="./assets/img/click.png" alt="Sandrine Coiffure">
-        </a>
-        <a href="https://sandrine-coiffure-domici-606ef.web.app/">
-            <p class="visite_2">Click here to visit website</p>
-        </a>
-    </div>
+
+    <section id="projects">
+        <div class="project_left">
+            <img src="./assets/img/apercu projet.png" alt="">
+            <img id="pjt" class="pjt_left" src="./assets/img/art-esthetique.png" alt="">
+            <div class="des_project_left">
+                <h3>L'art Esthetique</h3>
+                <p>Site vitrine à la demande de l’entreprise L’art Esthétique afin <br> d’augmenter sa visibilité. Le projet a été designer, maquetté et codé <br> pour être mis en ligne par moi-même, en prenant en compte les besoins du client. <br>Ce site affiche un score Lighthouse de 91,75/100.</p>
+                <div class="click_2">
+                    <img id="click" src="./assets/img/click.png" alt="">
+                    <h4>click here to visite website</h4>
+                </div>
+            </div>
+        </div>
+        <div class="project_right">
+            <img src="./assets/img/apercu projet.png" alt="">
+            <img id="pjt" class="pjt_right" src="./assets/img/sandrine-coiffure.png" alt="">
+            <div class="des_project_right">
+                <h3>Sandrine coiffure</h3>
+                <p>Site vitrine avec carte blanche du client sur le web design oû j’ai intégré au clic du menu des effets de perspective 3d sur la fenêtre pour rendre le menu accessible  sur la partie droite de l’écran. Un effet d’animation a également été ajouté pour rendre animée cette perspective 3d au survol de la souris. Sobre et efficace.</p>
+                <div class="click_1">
+                    <img id="click" src="./assets/img/click.png" alt="">
+                    <h4>click here to visite website</h4>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <h2>Contact</h2>
         <div class="linkedin">
