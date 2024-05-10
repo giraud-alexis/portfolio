@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: jakarta;
+    src: url(../fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: preahvihear;
+    src: url(../fonts/Preahvihear/Preahvihear-Regular.ttf);
+}
+h1, h2, h3, h4, p {
+    color: white;
+}
+h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: jakarta;
+}
+h2 {
+    text-align: center;
+    font-family: preahvihear;
+}
+h3 {
+    font-size: 2rem;
+    font-family: jakarta;
+    margin-bottom: 2%;
+}
+p {
+    font-size: 1.3rem;
+    padding: 4% 5%;
+}
+#click {
+    height: 25px;
+}
+#pjt {
+    border-radius: 10px;
+    height: 300px;
+    width: 28%;
+    rotate: 0deg;
+}
+/* -------------------------------------------------- */
+
+.project_right img {
+    rotate: 180deg;
+    height: 800px;
+    margin-top: 5%;
+    margin-left: 42.5%;
+}
+.project_right {
+    position: relative;
+}
+.pjt_right{
+    position: absolute;
+    top: 32%;
+    left: 12.6%;
+}
+.des_project_right {
+    top: 40%;
+    left: 15%;
+    height: 200px;
+    width: 800px;
+    position: absolute;
+}
+.des_project_right h3 {
+    margin-left: 2%;
+}
+.des_project_right p {
+    height: 150px;
+    border-radius: 20px;
+    background-color: #ffffff0e;
+    backdrop-filter: blur(15px);
+}
+.click_1 {
+    display: flex;
+}
+.des_project_right img {
+    margin-left: 2%;
+}
+.des_project_right h4 {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+}
+
+/* ------------------------------------------------------ */
+
+.project_left img {
+    height: 800px;
+    margin-top: 5%;
+    margin-left: 3.2%;
+}
+.project_left {
+    position: relative;
+}
+.pjt_left{
+    position: absolute;
+    top: 26.5%;
+    left: 14.2%;
+}
+.des_project_left {
+    top: 35%;
+    left: 43%;
+    height: 200px;
+    width: 800px;
+    position: absolute;
+}
+.des_project_left h3 {
+    margin-left: 69%;
+}
+.des_project_left p {
+    height: 150px;
+    border-radius: 20px;
+    background-color: #ffffff0e;
+    backdrop-filter: blur(15px);
+}
+.click_2 {
+    display: flex;
+}
+.des_project_left img {
+    margin-left: 60%;
+}
+.des_project_left h4 {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+}
+
+/* ------------------------------------------------------ */
+
+
