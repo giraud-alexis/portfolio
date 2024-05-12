@@ -38,6 +38,11 @@ header {
 .thanks {
     margin-top: 2%;
 }
+@media (max-width:1850px) {
+    .cv {
+        margin-top: 1%;
+    }
+}
 @media (max-width:450px) {
     header img {
         height: 150px;

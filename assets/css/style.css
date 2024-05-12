@@ -229,16 +229,16 @@ footer a {
         width: 100%;
     }
     .présentation_intro h1 {
-        top: 40%;
-        left: 43%;
+        top: 25%;
+        left: 40%;
     }
     .présentation_intro h2 {
         top: 18%;
         left: 42%;
     }
     .présentation_intro h4 {
-        top: 55%;
-        left: 43%;
+        top: 57%;
+        left: 50%;
     }
     .présentation_intro p {
         top: 72%;
@@ -246,6 +246,9 @@ footer a {
     }
     .présentation_description {
         margin-top: 2%;
+    }
+    .nav_skills h2, .nav_projects h2 {
+        margin-top: 40px;
     }
 }
 @media (max-width:450px) {

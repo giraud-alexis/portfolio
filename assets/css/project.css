@@ -130,6 +130,35 @@ p {
 
 /* ------------------------------------------------------ */
 
+@media (max-width:1850px) {
+    .project_left h3 {
+        font-size: 1.5rem;
+        margin-left: 65%;
+    }
+    .project_right h3 {
+        font-size: 1.5rem;
+        margin-left: 2%;
+    }
+    .des_project_left p {
+        font-size: 0.8rem;
+    }
+    .des_project_right p {
+        font-size: 0.8rem;
+    }
+    .click_1 h4 {
+        font-size: 1.2rem;
+    }
+    .click_2 h4 {
+        font-size: 1.2rem;
+    }
+    .click_2 img {
+        margin-left: 55%;
+    }
+    footer h2 {
+        margin-left: 0;
+    }
+}
+
 @media (max-width:450px) {
     h1, h2, h3, h4, p {
         color: white;
