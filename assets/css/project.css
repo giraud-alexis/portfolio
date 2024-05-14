@@ -46,7 +46,7 @@ p {
 .project_right img {
     rotate: 180deg;
     height: 800px;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 42.5%;
 }
 .project_right {
@@ -79,7 +79,7 @@ p {
 .des_project_right img {
     margin-left: 2%;
 }
-.des_project_right h4 {
+.des_project_right a {
     margin-top: 5%;
     margin-left: 3%;
     font-size: 1.5rem;
@@ -89,7 +89,7 @@ p {
 
 .project_left img {
     height: 800px;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 3.2%;
 }
 .project_left {
@@ -122,7 +122,7 @@ p {
 .des_project_left img {
     margin-left: 60%;
 }
-.des_project_left h4 {
+.des_project_left a {
     margin-top: 5%;
     margin-left: 3%;
     font-size: 1.5rem;
@@ -131,6 +131,21 @@ p {
 /* ------------------------------------------------------ */
 
 @media (max-width:1850px) {
+    .project_left img {
+        margin-left: 1%;
+    }
+    /*
+    .project_right img {
+        margin-left: 43.5%;
+    }*/
+    .pjt_right {
+        top: 36%;
+        left: 14%;
+    }
+    .pjt_left {
+        top: 29.5%;
+        left: 14.8%;
+    }
     .project_left h3 {
         font-size: 1.5rem;
         margin-left: 65%;
@@ -141,18 +156,34 @@ p {
     }
     .des_project_left p {
         font-size: 0.8rem;
+        padding: 2% 6%;
+        padding-top: 4%;
     }
     .des_project_right p {
         font-size: 0.8rem;
+        padding: 3% 6%;
+        padding-top: 4%;
     }
-    .click_1 h4 {
-        font-size: 1.2rem;
+    .click_1 {
+        margin-top: 2%;
     }
-    .click_2 h4 {
+    .click_2 {
+        margin-top: 2%;
+    }
+    .click_1 a {
+        margin-top: 0;
+        margin-left: 2%;
         font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .click_2 a {
+        margin-top: 0;
+        margin-left: 2%;
+        font-size: 1.2rem;
+        font-weight: bold;
     }
     .click_2 img {
-        margin-left: 55%;
+        margin-left: 52%;
     }
     footer h2 {
         margin-left: 0;
@@ -236,7 +267,7 @@ p {
     .des_project_right img {
         margin-left: 2%;
     }
-    .des_project_right h4 {
+    .des_project_right a {
         margin-top: 5%;
         margin-left: 3%;
         font-size: 0.5rem;
@@ -282,7 +313,7 @@ p {
     .des_project_left img {
         margin-left: 90%;
     }
-    .des_project_left h4 {
+    .des_project_left a {
         margin-top: 5%;
         margin-left: -43%;
         font-size: 0.5rem;
