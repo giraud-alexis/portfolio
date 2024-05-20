@@ -208,7 +208,12 @@ i {
     transition: 1s;
 }
 footer {
-    height: 300px;
+    height: 600px;
+}
+#profil {
+    height: 100%;
+    margin: 0 39%;
+    border-radius: 50%;
 }
 footer h2 {
     margin-top: 5%;
@@ -218,7 +223,7 @@ footer h2 {
 }
 .linkedin, .github, .gmail {
     margin-top: 1%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 footer a {
     margin-left: 1%;
@@ -291,7 +296,7 @@ footer a {
         font-size: 0.5rem;
     }
     .présentation_intro h4 {
-        top: 42%;
+        top: 48%;
         left: 43%;
         font-size: 0.7rem;
     }
@@ -356,6 +361,9 @@ footer a {
     }
     footer {
         height: 150px;
+    }
+    #profil {
+        margin-left: 40%;
     }
     footer h2 {
         margin-top: 5%;

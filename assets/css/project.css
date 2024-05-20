@@ -256,7 +256,7 @@ p {
     }
     .des_project_right p {
         height: 70px;
-        
+        font-size: 0.2rem;
         border-radius: 20px;
         background-color: #ffffff0e;
         backdrop-filter: blur(15px);
@@ -302,6 +302,7 @@ p {
         
     }
     .des_project_left p {
+        font-size: 0.2rem;
         height: 70px;
         border-radius: 20px;
         background-color: #ffffff0e;

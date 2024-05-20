@@ -18,6 +18,11 @@ header {
     flex-direction: column;
     align-items: center;
 }
+header img {
+    margin-top: 15px;
+    width: 12%;
+    border-radius: 10%;
+}
 .contact {
     display: flex;
     flex-direction: column;
@@ -45,7 +50,8 @@ header {
 }
 @media (max-width:450px) {
     header img {
-        height: 150px;
+        height: 200px;
+        width: 150px;
     }
     h1 {
         font-size: 1.2rem;
