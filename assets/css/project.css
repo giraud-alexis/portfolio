@@ -78,9 +78,10 @@ p {
 }
 .des_project_right img {
     margin-left: 2%;
+    margin-top: 2%;
 }
 .des_project_right a {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 3%;
     font-size: 1.5rem;
 }
@@ -120,10 +121,11 @@ p {
     display: flex;
 }
 .des_project_left img {
-    margin-left: 60%;
+    margin-left: 55%;
+    margin-top: 2%;
 }
 .des_project_left a {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 3%;
     font-size: 1.5rem;
 }

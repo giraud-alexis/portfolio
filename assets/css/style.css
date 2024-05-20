@@ -92,7 +92,7 @@ i {
 .présentation_intro h1 {
     opacity: 0;
     position: absolute;
-    top: 40%;
+    top: 41%;
     left: 43%;
     color: #ffffff;
     font-size: 2.5rem;
@@ -217,7 +217,6 @@ footer {
 }
 footer h2 {
     margin-top: 5%;
-    margin-left: 25%;
     color: #ffffff;
     font-family: preahvihear;
 }
